@@ -6,6 +6,7 @@ For example, the processing becomes effective when making teacher data such as a
 <img src="./img/waveeq1.gif"/>
 <img src="./img/waveeq2.gif"/>
 Solving the above wave equation, the solution is as follows.
+It seems to be vibrating in the earthquake.
 <table border="0" cellspacing="0" cellpadding="5" bordercolor="#333333">
 <tr>
 <td><img src="./img/waveeq_caffe0.png"/>
