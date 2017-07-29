@@ -55,7 +55,6 @@ def main():
                     lap[y][x][c] = (image[y+1][x][c] - 2.0 * image[y][x][c] + image[y-1][x][c]) / dy2 \
                                  + (image[y][x+1][c] - 2.0 * image[y][x][c] + image[y][x-1][c]) / dx2
         # calculate
-        image_now = copy.deepcopy(image)
         for y in range(height):
             for x in range(width):
                 # skip boundary
