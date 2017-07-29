@@ -9,9 +9,9 @@ import copy
 # 係数
 C = 1.0
 # 刻み幅
-DT = 1.0
 DY = 1.0
 DX = 1.0
+DT = 0.7
 
 def main():
     if len(sys.argv) <= 1:
@@ -39,6 +39,8 @@ def main():
     image_old = copy.deepcopy(image)
     image_new = copy.deepcopy(image)
     # 係数用意
+    dy2 = DY * DY
+    dx2 = DX * DX
     dt2 = DT * DT
     c2 = C * C
     # 計算ループ
@@ -50,8 +52,8 @@ def main():
                 if (y == 0) or (y == height - 1) or (x == 0) or (x == width - 1):
                     continue
                 for c in range(channel):
-                    lap[y][x][c] = (image[y+1][x][c] - 2.0 * image[y][x][c] + image[y-1][x][c]) / (2.0 * DY) \
-                                 + (image[y][x+1][c] - 2.0 * image[y][x][c] + image[y][x-1][c]) / (2.0 * DX)
+                    lap[y][x][c] = (image[y+1][x][c] - 2.0 * image[y][x][c] + image[y-1][x][c]) / dy2 \
+                                 + (image[y][x+1][c] - 2.0 * image[y][x][c] + image[y][x-1][c]) / dx2
         # calculate
         image_now = copy.deepcopy(image)
         for y in range(height):
