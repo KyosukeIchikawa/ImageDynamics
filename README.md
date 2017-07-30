@@ -11,11 +11,8 @@ It seems to be vibrating in the earthquake.
 <table border="0" cellspacing="0" cellpadding="5" bordercolor="#333333">
 <tr>
 <td><img src="./img/waveeq_caffe0.png"/>
-<td><img src="./img/waveeq_caffe5.png"/>
-</tr>
-<tr>
 <td><img src="./img/waveeq_caffe10.png"/>
-<td><img src="./img/waveeq_caffe15.png"/>
+<td><img src="./img/waveeq_caffe20.png"/>
 </tr>
 </table>
 
@@ -27,10 +24,7 @@ It seems that RGB are averaged so that the temperature distribution becomes ther
 <table border="0" cellspacing="0" cellpadding="5" bordercolor="#333333">
 <tr>
 <td><img src="./img/diffeq_garden0.png"/>
-<td><img src="./img/diffeq_garden5.png"/>
-</tr>
-<tr>
 <td><img src="./img/diffeq_garden10.png"/>
-<td><img src="./img/diffeq_garden15.png"/>
+<td><img src="./img/diffeq_garden20.png"/>
 </tr>
 </table>
