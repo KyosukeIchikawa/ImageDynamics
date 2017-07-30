@@ -43,7 +43,7 @@ In the image, you can see the effect of emphasizing the boundary.
 </tr>
 </table>
 
-## Case 3: Cahn-Hilliard equation
+## Case 4: Cahn-Hilliard equation
 <img src="./img/cahneq1.gif"/>
 Details will be released in the future.<br>
 Solving the above Cahn-Hilliard equation, the solution is as follows.
