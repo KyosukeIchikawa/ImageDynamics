@@ -2,6 +2,7 @@
 I tried to solve the equation of motion considered the image as a two dimensional scalar field.
 By this method, I think that the image can be in various forms.
 For example, the processing becomes effective when making teacher data such as artificial intelligence.
+
 ## Case 1: Wave equation
 <img src="./img/waveeq1.gif"/>
 <img src="./img/waveeq2.gif"/>
@@ -15,5 +16,21 @@ It seems to be vibrating in the earthquake.
 <tr>
 <td><img src="./img/waveeq_caffe10.png"/>
 <td><img src="./img/waveeq_caffe15.png"/>
+</tr>
+</table>
+
+## Case 2: Diffusion equation
+<img src="./img/diffeq1.gif"/>
+<img src="./img/diffeq2.gif"/>
+Solving the above diffusion equation, the solution is as follows.
+It seems that RGB are averaged so that the temperature distribution becomes thermal equilibrium.
+<table border="0" cellspacing="0" cellpadding="5" bordercolor="#333333">
+<tr>
+<td><img src="./img/diffeq_garden0.png"/>
+<td><img src="./img/diffeq_garden5.png"/>
+</tr>
+<tr>
+<td><img src="./img/diffeq_garden10.png"/>
+<td><img src="./img/diffeq_garden15.png"/>
 </tr>
 </table>
