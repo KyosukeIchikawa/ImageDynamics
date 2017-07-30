@@ -30,7 +30,7 @@ It seems that RGB are averaged so that the temperature distribution becomes ther
 </table>
 
 ## Case 3: Diffusion equation (Negative diffusion coefficient)
-<img src="./img/diffeq1.gif"/>
+<img src="./img/diffeq3.gif"/>
 <img src="./img/diffeq2.gif"/>
 Solving the above diffusion equation (Negative diffusion coefficient), the solution is as follows.
 An unnatural expression that heat moves from low temperature to high temperature.
