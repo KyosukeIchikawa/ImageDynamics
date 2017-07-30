@@ -42,3 +42,24 @@ In the image, you can see the effect of emphasizing the boundary.
 <td><img src="./img/diffeq2_garden40.png"/>
 </tr>
 </table>
+
+## Case 3: Cahn-Hilliard equation
+<img src="./img/cahneq1.gif"/>
+Details will be released in the future.<br>
+Solving the above Cahn-Hilliard equation, the solution is as follows.
+This is an expression that describes a two-phase fluid.
+In the image, we believe that it is possible to extract the object so much (while adjusting the coefficient).
+<table border="0" cellspacing="0" cellpadding="5" bordercolor="#333333">
+<tr>
+<td><img src="./img/cahneq1_caffe0pre.png"/>
+<td><img src="./img/cahneq1_caffe0.png"/>
+<td><img src="./img/cahneq1_caffe1.png"/>
+<td><img src="./img/cahneq1_caffe2.png"/>
+</tr>
+<tr>
+<td><img src="./img/cahneq1_caffe3.png"/>
+<td><img src="./img/cahneq1_caffe4.png"/>
+<td><img src="./img/cahneq1_caffe5.png"/>
+<td><img src="./img/cahneq1_caffe20.png"/>
+</tr>
+</table>
