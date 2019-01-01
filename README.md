@@ -1,7 +1,6 @@
 # ImageDynamics
 I tried to solve the equation of motion considered the image as a two dimensional scalar field.
 By this method, I think that the image can be in various forms.
-For example, the processing becomes effective when making teacher data such as artificial intelligence.
 
 ## Case 1: Wave equation
 <img src="./img/waveeq1.gif"/>
